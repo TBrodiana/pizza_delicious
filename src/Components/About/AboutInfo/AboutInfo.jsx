@@ -25,7 +25,7 @@ const AboutInfo = (props) => {
                     <div>
                         <h2>Welcome to<i>
                             <img src={props.imgs[4].img} alt={props.imgs[4].alt}/>
-                        </i><span>pizza</span> a restaurant
+                        </i><span>pizza</span> restaurant
                         </h2>
 
                         <p>{props.text}

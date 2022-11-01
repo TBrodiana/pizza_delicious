@@ -68,6 +68,10 @@ $white: rgb(255,255,255);
   h3{
     @extend %h3;
     text-align: center;
+    &:hover{
+      cursor: pointer;
+      color: $yellow;
+    }
   }
   p{
     text-align: center;

@@ -10,7 +10,7 @@ $yellow: rgb(241,201,23);
     img{
       width: 50%;
       position: absolute;
-      top: 17px;
+      top: 20px;
       left: 20px;
       display: block;
     }
@@ -19,9 +19,11 @@ $yellow: rgb(241,201,23);
   .logoItems:hover{
     transform: rotate(45deg);
     transition-duration: 2s;
+    cursor: pointer;
     img{
       transform: rotate(-45deg);
       transition-duration: 2s;
+      cursor: pointer;
     }
   }
   span{
